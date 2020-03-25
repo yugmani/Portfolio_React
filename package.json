@@ -1,0 +1,26 @@
+{
+  "name": "portfolio_react",
+  "version": "1.0.0",
+  "description": "portfolio application in react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "myportfolio_react": "npm start --prefix myportfolio_react",
+    "dev": "concurrently \"npm run server\" \"npm run myportfolio_react\""
+  },
+  "proxy": "http://localhost:3000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugmani/Portfolio_React.git"
+  },
+  "author": "Yoog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yugmani/Portfolio_React/issues"
+  },
+  "homepage": "https://github.com/yugmani/Portfolio_React",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
